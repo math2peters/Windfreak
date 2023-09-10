@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>252</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>671</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="ch1_frequency_edit">
+      <property name="text">
+       <string>1e9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QLineEdit" name="ch1_phase_edit">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Power (dBm)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Phase (Deg)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Phase (Deg)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="ch1_power_edit">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="ch0_power_edit">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Power (dBm)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Frequency (Hz)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Frequency (Hz)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="ch0_frequency_edit">
+      <property name="text">
+       <string>1e9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>CH1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="QLineEdit" name="ch0_phase_edit">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>CH0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QPushButton" name="ch0_set_button">
+      <property name="styleSheet">
+       <string notr="true">border:2px solid #000000</string>
+      </property>
+      <property name="text">
+       <string>Set CH0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="8">
+     <widget class="QCheckBox" name="ch1_enable_check">
+      <property name="text">
+       <string>Enable CH1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="QPushButton" name="ch1_set_button">
+      <property name="styleSheet">
+       <string notr="true">border:2px solid #000000</string>
+      </property>
+      <property name="text">
+       <string>Set CH1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QCheckBox" name="ch0_enable_check">
+      <property name="text">
+       <string>Enable CH0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="8">
+     <widget class="QLabel" name="error_message">
+      <property name="text">
+       <string>None</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Error Message:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
